@@ -330,7 +330,6 @@ PHP_FUNCTION(dom_varimport)
 {
     zval *id, *var;
     dom_varimport_config conf;
-    int dummy = 0;
     xmlNodePtr nodep = NULL;
     xmlDocPtr doc = NULL;
     xmlNodePtr root_node = NULL, old_root_node;
